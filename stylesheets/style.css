@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+}
+
+/* Navigation Bar */
+.nav-wrapper {
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.nav-links {
+    margin-left: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a + a {
+    margin-left: 2rem;
+}
+
+a.active {
+    position: relative;
+}
+
+a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* Adjust the value to control the distance below the text */
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 100px 200px;
+}
+
+.card {
+  width: calc(20.5%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 100;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 5px;
+}
+
+.card button {
+  margin-top: 5px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(96, 196, 66);
+  transition: all 0.2s ease-out;
+}
+
+.card button:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 2px 2px #000;
+}
+
+.card-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-details .price {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.card-details .add-button {
+  flex-shrink: 0;
+}
+
+/* Cart */
+.cart{
+  padding: 50px 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+h1{
+  display: inline-block;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.remove-btn{
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(197, 45, 25);
+  transition: all 0.2s ease-out;
+}
+
+.remove-btn:hover{
+  transform: translate(-5px, -5px);
+  box-shadow: 2px 2px #000;
+}
+
+
+/* Checkout */
+.checkout-detils{
+  padding: 50px 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.checkout-btn{
+  margin-top: 5px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(96, 196, 66);
+  transition: all 0.2s ease-out;
+}
+
+.checkout-btn:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 2px 2px #000;
+}
+
+.reset-btn{
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(197, 45, 25);
+  transition: all 0.2s ease-out;
+}
+
+.reset-btn:hover{
+  transform: translate(-5px, -5px);
+  box-shadow: 2px 2px #000;
+}
+
+.checkout-btn + .reset-btn{
+  margin-left: 40px;
+}

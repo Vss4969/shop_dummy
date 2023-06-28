@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nike Air Jordan 1",
+    "price": 799,
+    "image": "/pictures/shoe1.jpg"
+  },
+  {
+    "name": "Adidas Stan Smith",
+    "price": 699,
+    "image": "/pictures/shoe2.jpg"
+  },
+  {
+    "name": "Yeezy Boost 350",
+    "price": 899,
+    "image": "/pictures/shoe3.jpg"
+  },
+  {
+    "name": "Vans Old Skool",
+    "price": 599,
+    "image": "/pictures/shoe4.jpg"
+  },
+  {
+    "name": "Puma Suede Classic",
+    "price": 799,
+    "image": "/pictures/shoe5.jpg"
+  },
+  {
+    "name": "ASICS Gel-Kayano",
+    "price": 899,
+    "image": "/pictures/shoe6.jpg"
+  },
+  {
+    "name": "New Balance 990",
+    "price": 799,
+    "image": "/pictures/shoe7.jpg"
+  },
+  {
+    "name": "Gucci Ace",
+    "price": 999,
+    "image": "/pictures/shoe8.jpg"
+  }
+]
